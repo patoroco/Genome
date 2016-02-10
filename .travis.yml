@@ -1,5 +1,5 @@
 language: swift
 osx_image: xcode7.2
-xcode_project: Genome.xcodeproj
+xcode_workspace: Genome.xcworkspace
 xcode_scheme: GenomeTests
 xcode_sdk: iphonesimulator
