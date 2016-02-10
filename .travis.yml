@@ -1,5 +1,5 @@
 language: swift
-rvm: 1.9.3
+rvm: 2.0.0
 
 before_install:
   - gem install cocoapods
