@@ -1,4 +1,6 @@
 language: swift
+before_install:
+  - gem install cocoapods
 script:
   - xctool -workspace Genome.xcworkspace -scheme Genome -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
   - xctool test -workspace Genome.xcworkspace -scheme GenomeTests -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
